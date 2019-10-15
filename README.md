@@ -11,7 +11,7 @@ The SEC updates the XBRL dump every quarter, so you must download a new one each
 
 ## Annual Filings
 Call the `get_files` method on an instance of the EdgarCrawler class. Get files has four parameters: ticker, start date, end date, and files.
-Files is a list of file names, which are predefined using the naming convention used by the SEC. 
+Ticker is a string of the desired ticker. Start and end dates are given as strings in the YYYY-MM-DD format. Files is a list of file names, which are predefined using the naming convention used by the SEC. 
 
 ## Quarterly Filings
 Not currently supported. Working on it. 
